@@ -8,7 +8,7 @@
 
 | 工具链 | 版本 | macOS ARM64 | Linux ARM64 | Linux x86_64 | Windows x86_64 |
 |---|---|:---:|:---:|:---:|:---:|
-| XuanTie GCC | v2.10.2 | 支持 | 支持 | — | — |
+| XuanTie GCC | v2.10.2 | 支持 | 支持 | 支持 | 支持 |
 | XuanTie GCC | v2.6.1 | — | — | 支持 | 支持 |
 | Zephyr GCC RISC-V | 1.0.0-rc1 | 支持 | 支持 | 支持 | 支持 |
 
@@ -24,6 +24,8 @@
 |---|---|---|---:|
 | v2.10.2 | macOS ARM64 | [xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz) | 66.1 MiB |
 | v2.10.2 | Linux ARM64 | [xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz) | 83.8 MiB |
+| v2.10.2 | Linux x86_64 | [xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz) | 87.7 MiB |
+| v2.10.2 | Windows x86_64 | [xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z) | 36.9 MiB |
 | v2.6.1 | Linux x86_64 | [xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz) | 94.8 MiB |
 | v2.6.1 | Windows x86_64 | [xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z) | 73.4 MiB |
 
@@ -67,6 +69,8 @@
 |---|---|
 | `xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz` | `3a950464d6f93cd17af27401e4156ccc9e743d4dc5f39010440af4abefd8705b` |
 | `xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz` | `9f19c300979d5e7189b9630c4480f5690b93c8e840a767dd4ef61bf5a6565c8e` |
+| `xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz` | `a3a6fd5fe9fce64c09fb6d96cb1075ba114ee466d73bba6be5a4462fee978c83` |
+| `xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z` | `373babef6d84b78047fe3bd7ffce318d81bf7df54fa9be6feaf0863d4f800994` |
 | `xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz` | `83817bd7cab693fc249bb98869de5e475c1ede577f4a188869fed96c8dbb8e1a` |
 | `xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z` | `36daf2bc92f0161c9db1840d3c1b9de2db950d796f2920e6bc6188e9893a57ca` |
 | `zephyr-gcc-riscv-1.0.0-rc1-macos-aarch64.tar.xz` | `c3590c44882adea9f8bc29c4605dc2cf57029ae23646a1017b8cb54e5a57aedb` |
