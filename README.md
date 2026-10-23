@@ -9,10 +9,12 @@
 | 工具链 | 版本 | macOS ARM64 | Linux ARM64 | Linux x86_64 | Windows x86_64 |
 |---|---|:---:|:---:|:---:|:---:|
 | XuanTie GCC | v2.10.2 | 支持 | 支持 | 支持 | 支持 |
-| XuanTie GCC | v2.6.1 | — | — | 支持 | 支持 |
+| XuanTie GCC | v2.6.1（已弃用） | — | — | 支持 | 支持 |
 | Zephyr GCC RISC-V | 1.0.0-rc1 | 支持 | 支持 | 支持 | 支持 |
 
 > 表中的平台指运行工具链的**主机平台**。Zephyr 发布文件在 Linux ARM64 资产中使用 `aarch64` 命名。
+
+> XuanTie GCC v2.6.1 已弃用，请改用 v2.10.2。
 
 ## 下载
 
@@ -26,8 +28,8 @@
 | v2.10.2 | Linux ARM64 | [xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz) | 83.8 MiB |
 | v2.10.2 | Linux x86_64 | [xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz) | 87.7 MiB |
 | v2.10.2 | Windows x86_64 | [xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z) | 36.9 MiB |
-| v2.6.1 | Linux x86_64 | [xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz) | 94.8 MiB |
-| v2.6.1 | Windows x86_64 | [xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z) | 73.4 MiB |
+| v2.6.1（已弃用） | Linux x86_64 | [xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz) | 94.8 MiB |
+| v2.6.1（已弃用） | Windows x86_64 | [xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z) | 73.4 MiB |
 
 ### Zephyr GCC RISC-V
 
