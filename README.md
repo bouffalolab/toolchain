@@ -4,43 +4,57 @@
 
 当前 Release：[`default`](https://github.com/bouffalolab/toolchain/releases/tag/default)
 
+> **后续版本说明**：后续版本需要使用 **GCC 14.3**。玄铁 GCC（XuanTie GCC）和 Zephyr GCC 均已弃用，请迁移到 GCC 14.3。
+
 ## 版本与支持平台
 
 | 工具链 | 版本 | macOS ARM64 | Linux ARM64 | Linux x86_64 | Windows x86_64 |
 |---|---|:---:|:---:|:---:|:---:|
-| XuanTie GCC | v2.10.2 | 支持 | 支持 | 支持 | 支持 |
+| GCC RISC-V | 14.3.0 | 支持 | 支持 | 支持 | 支持 |
+| XuanTie GCC | v2.10.2（已弃用） | 支持 | 支持 | 支持 | 支持 |
 | XuanTie GCC | v2.6.1（已弃用） | — | — | 支持 | 支持 |
-| Zephyr GCC RISC-V | 1.0.0-rc1 | 支持 | 支持 | 支持 | 支持 |
+| Zephyr GCC RISC-V | 1.0.0-rc1（已弃用） | 支持 | 支持 | 支持 | 支持 |
 
 > 表中的平台指运行工具链的**主机平台**。Zephyr 发布文件在 Linux ARM64 资产中使用 `aarch64` 命名。
 
-> XuanTie GCC v2.6.1 已弃用，请改用 v2.10.2。
+> XuanTie GCC v2.10.2 和 v2.6.1 均已弃用，请迁移到 GCC 14.3。
 
 ## 下载
 
-### XuanTie GCC
+### GCC RISC-V 14.3.0
+
+后续版本建议使用 GCC 14.3.0。以下文件来自当前 Release：
+
+| 版本 | 主机平台 | 发布文件 | 大小 |
+|---|---|---|---:|
+| 14.3.0 | macOS ARM64 | [gcc-riscv-14.3.0-macos-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/gcc-riscv-14.3.0-macos-arm64.tar.xz) | 84.6 MiB |
+| 14.3.0 | Linux ARM64 | [gcc-riscv-14.3.0-linux-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/gcc-riscv-14.3.0-linux-arm64.tar.xz) | 84.8 MiB |
+| 14.3.0 | Linux x86_64 | [gcc-riscv-14.3.0-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/gcc-riscv-14.3.0-linux-x86_64.tar.xz) | 89.1 MiB |
+| 14.3.0 | Windows x86_64 | [gcc-riscv-14.3.0-windows-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/gcc-riscv-14.3.0-windows-x86_64.tar.xz) | 91.7 MiB |
+
+### XuanTie GCC（已弃用）
 
 面向平头哥（T-Head）玄铁 RISC-V 系列处理器。
 
 | 版本 | 主机平台 | 发布文件 | 大小 |
 |---|---|---|---:|
-| v2.10.2 | macOS ARM64 | [xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz) | 66.1 MiB |
-| v2.10.2 | Linux ARM64 | [xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz) | 83.8 MiB |
-| v2.10.2 | Linux x86_64 | [xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz) | 87.7 MiB |
-| v2.10.2 | Windows x86_64 | [xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z) | 36.9 MiB |
+| v2.10.2（已弃用） | macOS ARM64 | [xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz) | 66.1 MiB |
+| v2.10.2（已弃用） | Linux ARM64 | [xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz) | 83.8 MiB |
+| v2.10.2（已弃用） | Linux x86_64 | [xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz) | 87.7 MiB |
+| v2.10.2（已弃用） | Windows x86_64 | [xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.10.2-windows-x86_64.7z) | 36.9 MiB |
 | v2.6.1（已弃用） | Linux x86_64 | [xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-linux-x86_64.tar.xz) | 94.8 MiB |
 | v2.6.1（已弃用） | Windows x86_64 | [xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/xuantie-gcc-riscv-v2.6.1-windows-x86_64.7z) | 73.4 MiB |
 
-### Zephyr GCC RISC-V
+### Zephyr GCC RISC-V（已弃用）
 
 面向 Zephyr RTOS 的 RISC-V 交叉编译工具链。
 
 | 版本 | 主机平台 | 发布文件 | 大小 |
 |---|---|---|---:|
-| 1.0.0-rc1 | macOS ARM64 | [zephyr-gcc-riscv-1.0.0-rc1-macos-aarch64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-macos-aarch64.tar.xz) | 125.3 MiB |
-| 1.0.0-rc1 | Linux ARM64 | [zephyr-gcc-riscv-1.0.0-rc1-linux-aarch64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-linux-aarch64.tar.xz) | 123.4 MiB |
-| 1.0.0-rc1 | Linux x86_64 | [zephyr-gcc-riscv-1.0.0-rc1-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-linux-x86_64.tar.xz) | 144.7 MiB |
-| 1.0.0-rc1 | Windows x86_64 | [zephyr-gcc-riscv-1.0.0-rc1-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-windows-x86_64.7z) | 117.3 MiB |
+| 1.0.0-rc1（已弃用） | macOS ARM64 | [zephyr-gcc-riscv-1.0.0-rc1-macos-aarch64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-macos-aarch64.tar.xz) | 125.3 MiB |
+| 1.0.0-rc1（已弃用） | Linux ARM64 | [zephyr-gcc-riscv-1.0.0-rc1-linux-aarch64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-linux-aarch64.tar.xz) | 123.4 MiB |
+| 1.0.0-rc1（已弃用） | Linux x86_64 | [zephyr-gcc-riscv-1.0.0-rc1-linux-x86_64.tar.xz](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-linux-x86_64.tar.xz) | 144.7 MiB |
+| 1.0.0-rc1（已弃用） | Windows x86_64 | [zephyr-gcc-riscv-1.0.0-rc1-windows-x86_64.7z](https://github.com/bouffalolab/toolchain/releases/download/default/zephyr-gcc-riscv-1.0.0-rc1-windows-x86_64.7z) | 117.3 MiB |
 
 ## 安装
 
@@ -53,7 +67,7 @@
    tar -xf <发布文件>.tar.xz -C "$HOME/toolchains"
    ```
 
-   Windows 的 `.7z` 文件可使用 [7-Zip](https://www.7-zip.org/) 解压。
+   Windows 的 `.7z` 或 `.tar.xz` 文件可使用 [7-Zip](https://www.7-zip.org/) 解压。
 
 4. 将解压目录中的 `bin` 加入 `PATH`。例如：
 
@@ -69,6 +83,10 @@
 
 | 发布文件 | SHA-256 |
 |---|---|
+| `gcc-riscv-14.3.0-linux-arm64.tar.xz` | `8f9f0f96f8604a3a917cb1e59eb5439189581e09fe01a0eeaa62ccd8a11a3da7` |
+| `gcc-riscv-14.3.0-linux-x86_64.tar.xz` | `29c01b7fd5a40b15e1816bc34400d110afa0e2290d2e543cfb6aee2ba414060b` |
+| `gcc-riscv-14.3.0-macos-arm64.tar.xz` | `460c57933454dafc78592d4b7fc160bfdfe406560d06bb72a976e319aec1d7d7` |
+| `gcc-riscv-14.3.0-windows-x86_64.tar.xz` | `c3bf3bdc21997bd32d36bb8465966397318c4b988af8e49f51601c82e0f1c2cc` |
 | `xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz` | `3a950464d6f93cd17af27401e4156ccc9e743d4dc5f39010440af4abefd8705b` |
 | `xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz` | `9f19c300979d5e7189b9630c4480f5690b93c8e840a767dd4ef61bf5a6565c8e` |
 | `xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz` | `a3a6fd5fe9fce64c09fb6d96cb1075ba114ee466d73bba6be5a4462fee978c83` |
