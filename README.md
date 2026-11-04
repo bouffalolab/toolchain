@@ -89,10 +89,10 @@
 
 | 发布文件 | SHA-256 |
 |---|---|
-| `gcc-riscv-14.3.0-linux-arm64.tar.xz` | `8f9f0f96f8604a3a917cb1e59eb5439189581e09fe01a0eeaa62ccd8a11a3da7` |
-| `gcc-riscv-14.3.0-linux-x86_64.tar.xz` | `29c01b7fd5a40b15e1816bc34400d110afa0e2290d2e543cfb6aee2ba414060b` |
+| `gcc-riscv-14.3.0-linux-arm64.tar.xz` | `b9fd4952cce8c1dc96b16fb27c82cd49483ac1e906f2530e679f2aa17d411afe` |
+| `gcc-riscv-14.3.0-linux-x86_64.tar.xz` | `93128c0da22cbbcf8473fae8c38b63232ebcd8d51969a14dc8491e77721b63a5` |
 | `gcc-riscv-14.3.0-macos-arm64.tar.xz` | `460c57933454dafc78592d4b7fc160bfdfe406560d06bb72a976e319aec1d7d7` |
-| `gcc-riscv-14.3.0-windows-x86_64.tar.xz` | `c3bf3bdc21997bd32d36bb8465966397318c4b988af8e49f51601c82e0f1c2cc` |
+| `gcc-riscv-14.3.0-windows-x86_64.tar.xz` | `64b074f523ce8ad56f46bf59b29dbf14ffd38ee2b16ef624cb3fe3bfdc9a039a` |
 | `xuantie-gcc-riscv-v2.10.2-macos-arm64.tar.xz` | `3a950464d6f93cd17af27401e4156ccc9e743d4dc5f39010440af4abefd8705b` |
 | `xuantie-gcc-riscv-v2.10.2-linux-arm64.tar.xz` | `9f19c300979d5e7189b9630c4480f5690b93c8e840a767dd4ef61bf5a6565c8e` |
 | `xuantie-gcc-riscv-v2.10.2-linux-x86_64.tar.xz` | `a3a6fd5fe9fce64c09fb6d96cb1075ba114ee466d73bba6be5a4462fee978c83` |
