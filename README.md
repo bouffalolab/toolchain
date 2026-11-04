@@ -15,6 +15,12 @@
 | XuanTie GCC | v2.6.1（已弃用） | — | — | 支持 | 支持 |
 | Zephyr GCC RISC-V | 1.0.0-rc1（已弃用） | 支持 | 支持 | 支持 | 支持 |
 
+| 版本 | 宿主 OS 要求 | 验证情况 |
+|---|---|---|
+| Linux x86_64 | Ubuntu 18.04+、Debian 10+、RHEL 8+ | 已在 Ubuntu 18.04 容器验证 |
+| Linux ARM64 | Ubuntu 18.04+ ARM64 | 已在 Ubuntu 18.04 ARM容器验证 |
+| Windows x86_64 | Windows 10/11 x64 | 已在 Windows 11 验证 |
+
 > 表中的平台指运行工具链的**主机平台**。Zephyr 发布文件在 Linux ARM64 资产中使用 `aarch64` 命名。
 
 > XuanTie GCC v2.10.2 和 v2.6.1 均已弃用，请迁移到 GCC 14.3。
